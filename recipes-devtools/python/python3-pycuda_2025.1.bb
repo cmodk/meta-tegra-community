@@ -3,10 +3,9 @@ HOMEPAGE = "http://mathema.tician.de/software/pycuda"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=8dd9e67c46dbe605fba6aeb236b48c8a"
 
-DEPENDS = "python3-setuptools-native python3-cython-native python3-cython python3-numpy-native cuda-profiler-api"
+DEPENDS = "python3-setuptools-native python3-cython-native python3-cython python3-numpy-native cuda-profiler-api-native"
 
-SRC_URI[sha256sum] = "d50d23ff6371482cff7d4b953ef40ab81c9df038ecb614484f9fd5347327327e"
-SRC_URI:append = " file://0001-add-nvcc-flag-allow-unsupported-compiler-to-allow-cu.patch"
+SRC_URI[sha256sum] = "52738e9a941c295c0a5df6aa0d49ac89f66d835dacce9c9c8b84e7530fe4622f"
 
 COMPATIBLE_MACHINE = "(tegra)"
 
